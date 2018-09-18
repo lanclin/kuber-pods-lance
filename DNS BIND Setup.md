@@ -5,7 +5,7 @@ Already BIND Services installed and Running
 
 SOA - Start of Authority
 
-NS - NAME SERVER - Indntity a DNS Server Domain
+NS - NAME SERVER - Identify a DNS Server Domain
 
 A or AAAA - Indiviual host of the domain A - IPv4 or AAAA - IPv6
 
