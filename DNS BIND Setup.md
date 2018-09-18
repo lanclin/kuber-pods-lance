@@ -3,6 +3,19 @@
 Prequsition: 
 Already BIND Services installed and Running
 
+SOA - Start of Authority
+
+NS - NAME SERVER - Indntity a DNS Server Domain
+
+A or AAAA - Indiviual host of the domain A - IPv4 or AAAA - IPv6
+
+CNAME - Canonical Name - assign another name alias for host
+
+MX - Mail Exchanger - mail server of the domain
+
+PTR - Pointer - Used for Reverse DNS lookups
+
+
 **named.conf sample**
 
 ````
@@ -43,14 +56,6 @@ jump		A		50.x.x.115
 techbox A		50.x.x.113
 
 ```
-
-**SOA - Start of Authority**
-**NS - NAME SERVER - Indntity a DNS Server Domain**
-**A or AAAA - Indiviual host of the domain A - IPv4 or AAAA - IPv6**
-**CNAME - Canonical Name - assign another name alias for host**
-**MX - Mail Exchanger - mail server of the domain** 
-**PTR - Pointer - Used for Reverse DNS lookups**
-
 
 **Rerverse Lookup Zone File**
 
